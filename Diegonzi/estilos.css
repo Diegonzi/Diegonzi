@@ -1,0 +1,113 @@
+*{
+  padding:0;
+  margin:0;
+
+}
+body{
+  background-color:#FFFFFF;
+}
+#Diegonzi{
+font-size: 100px;
+margin-left: 50px;
+font-family:candara;
+font-weight: bold;
+color:#01A9DB;
+
+}
+header h2{
+  background-color: #F3E2A9;
+
+
+}
+.bNavegacion{
+  background: #58ACFA;
+  overflow: hidden;
+  border-top:5px solid #F5D0A9;
+  border-bottom: 5px solid #F5D0A9;
+}
+.bNavegacion .menuPrincipal{
+  list-style: none;
+}
+.bNavegacion .menuPrincipal>li{
+  padding: 1em;
+  width: 7%;
+  float: left;
+  background:#58ACFA;
+}
+
+.bNavegacion .menuPrincipal>li>a{
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color:#fff;
+  text-decoration:none;
+}
+
+.bNavegacion .menuPrincipal>li,.bNavegacion .menuPrincipal>li>.subMenu>li:hover{
+  background: #58ACFA;
+  cursor:pointer;
+}
+
+.bNavegacion .menuPrincipal>li>.subMenu{
+  position: absolute;
+  background:#58ACFA;
+  width: 10%;
+  list-style: none;
+  display: none;
+  margin-left: -1em;
+}
+
+.bNavegacion .menuPrincipal>li:hover>.subMenu{
+  display: block;
+}
+
+.bNavegacion .menuPrincipal>li>.subMenu>li{
+  padding: 1em;
+}
+
+.bNavegacion .menuPrincipal>li>.subMenu>li>a{
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color:#fff;
+}
+
+
+img{
+  width: 850px;
+  height: 500px;
+  margin-top: 50px;
+  box-shadow:grey 5px 5px 5px;
+ border: 1px solid grey;
+  border-radius: 20px 20px ;
+  background:-webkit-radial-gradient(center,ellipse, grey, white);
+  -webkit-transition:-webkit-transform 1s ease 0.5s;
+  margin-left:400px ;
+
+
+}
+#contacto{
+  padding:1em;
+ 
+  float:right;
+  font-weight: bold;
+  font-size: 18px;
+  color:white;
+}
+
+#buscador{
+  padding: 1em;
+  float:right;
+}
+#pie{
+
+  clear:both;
+	padding-top: 20px;
+	font:1.3em georgia;
+	color:grey;
+	margin:10px 8px;
+}
+#pieD{
+  margin-left: 25px;
+}
