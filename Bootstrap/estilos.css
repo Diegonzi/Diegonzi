@@ -1,0 +1,92 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color:#444;
+}
+/* Tipografia */
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.h1{
+    font-weight: 300;
+    
+}
+h2{
+    font-size: 2rem;
+    font-weight: 300;
+}
+h3{
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+h5{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+p{
+
+    font-weight: 300;
+}
+.card-block .display-1{
+    font-size: 6.25rem;
+}
+/* fondos */
+.fondo{
+    background: url('imagenes/fondo-perro.jpg');
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.fondo-2{
+    background-color: rgba(0,0,0,.1);
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+}
+.bg-fondo-claro{
+    background-color:#00000015; 
+    background-size: cover;
+}
+.bg-danger{
+background-color: #f38181 !important;
+}
+.bg-violeta{
+    background-color: #625772;
+}
+/* .bg-primary{
+    background-color: #a9eee5 !important;
+} */
+/* a.bg-primary:focus, a.bg-primary:hover{
+    background-color: #025aa5 !important;
+} */
+/* Botones */
+.btn{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+/* Margenes y padding */
+.pb-25{
+    padding-bottom: 1rem;
+}
+/* iconos */
+.iconos{
+    font-size: 2.25rem;
+}
+
+/* otros */
+
+.card{
+    border: none;
+}
+
+.form-control{
+    border: 1px solid rgba(0,0,0,1)
+}
