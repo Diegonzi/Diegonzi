@@ -37,6 +37,14 @@ p{
 .card-block .display-1{
     font-size: 6.25rem;
 }
+.banner-letra{
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+.banner-h2{
+    padding-bottom: 40px;
+}
+
 /* fondos */
 .fondo{
     background: url('imagenes/fondo-perro.jpg');
@@ -46,27 +54,56 @@ p{
 
 }
 .fondo-2{
-    background-color: rgba(0,0,0,.1);
+    background-color: rgba(0, 0, 0, 0.082);
     height:100vh;
     background-position: center;
     background-size: cover;
 }
-.bg-fondo-claro{
-    background-color:#00000015; 
+.bg-fondo-seccion{
+    background: url('imagenes/fondo-perro-nieve.jpg');
+    height:80vh;
+    background-position: center;
     background-size: cover;
 }
-.bg-danger{
-background-color: #f38181 !important;
+.oscurecer-seccion{
+    background-color: rgba(0, 0, 0, 0.247);
+    height:80vh;
+    background-size: cover;
+}
+.fondo-banner{
+    background: url('imagenes/fondo-pasto.jpg');
+    height: 62vh;
+    background-size: cover;
+    background-position: center;
+}
+.fondo-banner-oscurecer{
+    background: rgba(0, 0, 0, 0.062);
+    height: 62vh;
 }
 .bg-violeta{
-    background-color: #625772;
+    background-color: #2470a0;
 }
+.bg-navbar{
+    background-color: rgb(171, 217, 231);
+}
+.bg-fondo-claro{
+    background-color: rgb(197, 241, 255);
+}
+.bg-boton-slider{
+    background-color: #ffd891;
+}
+
+
+
+
 /* .bg-primary{
     background-color: #a9eee5 !important;
 } */
 /* a.bg-primary:focus, a.bg-primary:hover{
     background-color: #025aa5 !important;
 } */
+
+
 /* Botones */
 .btn{
     font-size: 1.25rem;
@@ -84,9 +121,14 @@ background-color: #f38181 !important;
 /* otros */
 
 .card{
-    border: none;
+    border: ;
+    background-color: rgba(240, 240, 240, 0.438);
 }
 
 .form-control{
     border: 1px solid rgba(0,0,0,1)
+}
+
+.banner-1{
+    background: rgb(238, 209, 241);
 }
